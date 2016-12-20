@@ -32,7 +32,7 @@ keystone.init({
   "cookie secret" : process.env.COOKIE_SECRET,
   "session store" : "mongo",
 
-  "cloudinary config" : process.env.CLOUDINARY_URI,
+  //"cloudinary config" : process.env.CLOUDINARY_URI,
 
   "port" : process.env.PORT || "3000",
   "host" : process.env.IP || "0.0.0.0" // for testing on mobile locally
