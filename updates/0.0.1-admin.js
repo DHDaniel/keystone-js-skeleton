@@ -7,8 +7,8 @@ var keystone = require('keystone'),
 exports = module.exports = function(done) {
 
     new User.model({
-        name: { first: 'Daniel', last: 'Hernández' },
-        email: 'daniel.hernandez@sunnysidecode.com',
+        name: { first: 'John', last: 'Doe' },
+        email: 'johndoe@example.com',
         password: 'admin',
         canAccessKeystone: true
     }).save(done);
